@@ -1,4 +1,4 @@
-import { IMessage } from '../types'
+import { IMessage } from '../data/types'
 import moment from 'moment-timezone'
 import 'moment/locale/ko'
 
