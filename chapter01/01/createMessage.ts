@@ -1,28 +1,30 @@
-import { IMessage } from '../data/types'
-import moment from 'moment-timezone'
-import 'moment/locale/ko'
+import {IMessage} from '../data/types';
+import moment from 'moment-timezone';
+import 'moment/locale/ko';
 
 export default function createMessage (
     type: string,
     data: string,
     userId: number,
-    channelId: string
+    channelId: string,
 ): IMessage {
-    let content = {}
-    const now = moment()
-    const displayDate = moment(now).tz('Asia/Seoul').format('LT')
+    let content = {};
+    const now = moment();
+    const displayDate = moment(now).tz('Asia/Seoul').format('LT');
 
     switch(type) {
-        case 'text':
-          content = {
-            text: data
-          }
-          break
-        case 'qna':
-          content = {
-            qna: data
-          }
-          break
+      case 'text':
+        content = {
+          text: data
+        };
+        break;
+      case 'qna':
+        content = {
+          qna: data
+        };
+        break;
+      default:
+        throw new Error(`지원하지 않는 유형: ${type}`);
     }
 
     const message: IMessage = {
@@ -30,8 +32,8 @@ export default function createMessage (
       to: channelId,
       contentType: type,
       ...content,
-      displayDate
-    }
+      displayDate,
+    };
     
-    return message
+    return message;
 }
