@@ -11,6 +11,7 @@
 > 공부 진도에 따라서 개인 Medium에 지속적으로 업데이트 예정 📝
 
 1. [[리팩터링 2판] CHAPTER 01. 리팩터링: 첫 번째 예시 (1)](https://mjspring.medium.com/%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81-2%ED%8C%90-chapter-01-%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81-%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EC%98%88%EC%8B%9C-1-42694a8849f8)
+2. [[리팩터링 2판] CHAPTER 01. 리팩터링: 첫 번째 예시 (2)](https://mjspring.medium.com/%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81-2%ED%8C%90-chapter-01-%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81-%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EC%98%88%EC%8B%9C-2-134101efd141)
 
 ## CONTENTS
 
