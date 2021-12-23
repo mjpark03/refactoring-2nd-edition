@@ -4,7 +4,7 @@ import textData from '../data/test/text.data.json';
 import qnaData from '../data/test/qna.data.json';
 import unknownData from '../data/test/unknown.data.json';
 
-describe('03_extract_function_and_inline_variable_createMessage: 데이터 유형에 따른 메시지 생성', () => {
+describe('02_separate_data_createMessage: 데이터 유형에 따른 메시지 생성', () => {
   test('text 유형일 때, text 프로퍼티가 포함된 메시지 반환', () => {
     const message = createMessage(
       textData.type, 
