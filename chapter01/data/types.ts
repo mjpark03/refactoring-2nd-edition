@@ -7,3 +7,11 @@ export interface IMessage {
   qna?: string;
   displayDate: string;
 }
+
+export interface IMessageParam {
+  userId: number;
+  channelId: string;
+  type: string;
+  displayDate: string;
+  content: object;
+}
